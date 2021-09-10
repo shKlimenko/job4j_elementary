@@ -1,6 +1,6 @@
 package ru.job4j;
 
-import org.junit.Test; //не находит junit
+import org.junit.Test; //не находит junit //стал находить после ПКМ на pom.xml -> maven -reload project
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
