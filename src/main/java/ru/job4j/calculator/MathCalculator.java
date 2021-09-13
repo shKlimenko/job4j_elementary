@@ -16,8 +16,6 @@ public class MathCalculator {
         return sum(first, second) + multiply(first, second) + minus(first, second) + devide(first, second);
     }
 
-
-
     public static void main(String[] args) {
         System.out.println("Результат расчета равен: " + sumAndMultiply(10, 20));
         System.out.println("Результат суммы от вычитания и деления равен: " + sumMinusAndDevide(40, 20));
