@@ -9,10 +9,9 @@ public class CheckPrimeNumber {
                 break;
             }
         }
+        if (number == 1) {
+            return false;
+        }
         return prime;
-    }
-
-    public static void main(String[] args) {
-        System.out.println(check(4));
     }
 }

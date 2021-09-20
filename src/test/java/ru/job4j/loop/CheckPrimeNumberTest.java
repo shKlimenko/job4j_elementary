@@ -3,8 +3,6 @@ package ru.job4j.loop;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 public class CheckPrimeNumberTest {
     @Test
     public void when5() {
@@ -26,5 +24,4 @@ public class CheckPrimeNumberTest {
         boolean result = CheckPrimeNumber.check(number);
         Assert.assertFalse(result);
     }
-
 }
