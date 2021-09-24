@@ -3,8 +3,8 @@ package ru.job4j.array;
 public class MatrixCheck {
     public static boolean isWin(char[][] board) {
         for (int i = 0; i < board.length; i++) {
-            if (board[i][i] == 'X') {
-                return MatrixCheck.monoHorizontal(board, i) || MatrixCheck.monoVertical(board, i);
+            if (board[i][i] == 'X' && MatrixCheck.monoHorizontal(board, i) || MatrixCheck.monoVertical(board, i)) {
+                return true;
             }
         }
         return false;
